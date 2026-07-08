@@ -183,6 +183,28 @@ body{
     animation:fadeUp .8s ease;
 }
 
+.card__input-title{
+    margin-top:20px;
+    margin-bottom:8px;
+    color:var(--accent);
+    font-weight:600;
+}
+
+.card__input{
+    width:100%;
+    padding:12px 15px;
+    border:2px solid var(--accent);
+    border-radius:10px;
+    outline:none;
+    background:var(--card-bg);
+    color:var(--text);
+    font-size:15px;
+}
+
+.card__input:focus{
+    box-shadow:0 0 12px var(--shadow);
+}
+
 @keyframes fadeUp{
 
     from{

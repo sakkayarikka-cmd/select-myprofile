@@ -16,7 +16,7 @@
 <body>
   <main class="card">
     <img class="card__avatar" src="https://avatars.githubusercontent.com/u/9919?v=4" alt="รูปโปรไฟล์">
-    <h1 class="card__name">Sakkayarik Kanchanda</h1>
+    <h1 id="card-name" class="card__name">ชื่อ - นามสกุล</h1>
     <p class="card__title">นักศึกษาวิศวกรรมคอมพิวเตอร์</p>
     <p class="card__bio">กำลังเรียนรู้ Full-stack Development และ DevOps</p>
  
@@ -28,8 +28,17 @@
     <button id="theme-toggle" class="card__button">🌙 โหมดกลางคืน</button>
 
     <p class="card__title">ทดสอบวิชาหัวข้อพิเศษซอฟต์แวร์</p>
- 
+
+    <p class="card__input-title">ลองพิมพ์ชื่อของคุณที่นี่</p>
+
+<input
+    type="text"
+    id="name-input"
+    class="card__input"
+    placeholder="พิมพ์ชื่อของคุณ..."
+>
     <footer id="card-footer" class="card__footer"></footer>
+
   </main>
  
   <!-- JS ภายนอก: วางท้าย body เสมอ -->
